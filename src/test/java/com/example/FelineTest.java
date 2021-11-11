@@ -25,7 +25,7 @@ public class FelineTest {
 
     }
 
-    @Test//(expected = Exception.class)
+    @Test
     public void testWithException () throws Exception {
         Feline feline = new Feline();
 

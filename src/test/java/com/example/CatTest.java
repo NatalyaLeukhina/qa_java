@@ -31,7 +31,7 @@ public class CatTest {
 
 
     }
-    @Test//(expected = Exception.class)
+    @Test
     public void getFoodReturnPredatorsFoodList () throws Exception {
         Cat cat = new Cat(feline);
         List<String> expectedFoodList = List.of("Макадамия", "Кокос");
